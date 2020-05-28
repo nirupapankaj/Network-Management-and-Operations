@@ -1,0 +1,5 @@
+---
+- name : Lab8 config automation
+  become: yes
+  template: src=lab9.j2 dest=/home/netman/{{ item.hostname }}.txt
+  with_items: "{{ lab8config }}"

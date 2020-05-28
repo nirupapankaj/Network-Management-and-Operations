@@ -1,0 +1,9 @@
+---
+
+- name: generating router config files
+  hosts: local
+  become: yes
+
+
+  roles:
+    - router
