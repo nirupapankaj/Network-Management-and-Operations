@@ -1,3 +1,4 @@
+
 import boto3
 #Connecting to EC2
 ec2 = boto3.resource('ec2')
